@@ -556,7 +556,7 @@ export default function OsidesWebsite() {
       {/* ── STATS ──────────────────────────────────────────────────────────── */}
       <div className="bg-[#00AEEF]">
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 divide-x divide-white/25">
-          {[["500+","Happy Clients"],["24/7","Security Cover"],["2","Service Divisions"],["100%","Satisfaction"]].map(([n,l]) => (
+          {[["50+","Happy Clients"],["24/7","Security Cover"],["2","Service Divisions"],["100%","Satisfaction"]].map(([n,l]) => (
             <div key={l} className="flex flex-col items-center py-5 sm:py-6 px-3">
               <span className="text-2xl sm:text-3xl md:text-4xl font-black text-white">{n}</span>
               <span className="text-white/70 text-xs font-bold mt-1 text-center uppercase tracking-wide leading-tight">{l}</span>
